@@ -1,0 +1,43 @@
+section {
+  width: 100%;
+  height: 100%;
+  margin-top: 80px;
+}
+
+  section img {
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+
+article {
+  margin: auto;
+  max-width: 500px;
+  position: relative;
+  width: 100%;
+}
+
+  article div {
+    background: brown;
+    border: 1px solid blue;
+    cursor: pointer;
+    height: 50px;
+    position: absolute;
+    top: -webkit-calc(50% - 19px);
+    top: -moz-calc(50% - 19px);
+    top: -ms-calc(50% - 19px);
+    top: calc(50% - 19px);
+    width: 50px;
+  }
+
+    .prev {
+      left: 0;
+    }
+
+    .next {
+      right: 0;
+    }
+
+.showImg {
+  display: inline-block;
+}
